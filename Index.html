@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="./css/Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body class="body">
+
+    <header class="header">
+        <nav class="nav">
+            <a href="./Index.html" id="brandLogo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket2"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z" />
+                    <path
+                        d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z" />
+                </svg>
+                X Store</a>
+            <ul class="nav-ul">
+                <li><a href="./Index.html">Home</a></li>
+                <li><a href="./Register.html" onclick="viewCart()">Contact Us</a></li>
+                <li><a href="">ِAbout</a></li>
+            </ul>
+        </nav>
+        <section class="head-section">
+            <input type="search" class="search-input" placeholder="Find Your Product" id="search-box">
+            <span class="Search-btn">
+                <a class="search-link" onclick="searchProduct()">Search</a>
+            </span>
+            <div id="search-results"></div>
+            <a href="./cart.html" class="cart-icon">
+                <span class="cart-counter"></span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cart4"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l.5 2H5V5H3.14zM6 5v2h2V5H6zm3 0v2h2V5H9zm3 0v2h1.36l.5-2H12zm1.11 3H12v2h.61l.5-2zM11 8H9v2h2V8zM8 8H6v2h2V8zM5 8H3.89l.5 2H5V8zm0 5a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                </svg>
+            </a>
+            <section class="btn-authontaction">
+                <a href="/Register.html" class="signup">Sign in</a>
+                <!-- <a href="" class="signin">Sign in</a> -->
+            </section>
+        </section>
+        
+    </header>
+    <div id="buttons" class="Category-btn">
+    </div>
+
+    <div class="Slider-div">
+        <a class="sliderBtn1"><i class="fa-solid fa-angles-left"></i></a>
+    <div class="slider-container">   
+        <div class="slider">
+            <img src="https://f.nooncdn.com/mpcms/EN0003/assets/d528be54-1d79-4597-ae5b-c06370f24b78.png?format=webpundefined"
+                alt="snow">
+            <img src="https://f.nooncdn.com/mpcms/EN0003/assets/350b76f9-d21a-4a23-8261-996fbe099a75.png?format=webpundefined"
+                alt="mountains">
+            <img src="https://f.nooncdn.com/mpcms/EN0003/assets/494fef63-58fa-4d7c-b723-2d2f0dfa00cc.png?format=webpundefined"
+                alt="nature">
+        </div>
+    </div>
+    <a class="sliderBtn2" ><i class="fa-solid fa-angles-right"></i></a>
+    </div>
+    <h1 class="Suggested">Suggested For You </h1>
+    
+    <section class="container-div">
+        <div class="rowDiv" >
+
+        </div>
+    </section>
+
+
+<button id="backToTopBtn" class="btn"><i class="fa-solid fa-arrow-up-from-bracket"></i></button>
+<div>
+    <footer class="footer">
+        &copy; 2023 Your Company. All rights reserved.
+    </footer>
+</div>
+   
+    <script src="/js/Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/*-----------navbar Style--------------*/
+
+/* start header */
+.header {
+    background-color: #f5f4e1;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: auto;
+    
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: auto; 
+    margin: auto
+}
+
+header nav ul li {
+    padding: 0 10px;
+    cursor: pointer;
+    
+}
+
+header nav a {
+    color: #1a1717;
+}
+.nav-ul li a {
+    text-decoration: none;
+    font-weight: 490;
+}
+header nav #brandLogo {
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin-right: 25px;
+    text-decoration: none
+}
+
+header nav #brandLogo:hover {
+    color: #777;
+    text-decoration: none;
+   
+}
+.search-input{
+    width: 300px;
+    padding: 6px;
+    padding-left: 20px;
+    font-style: italic;
+    border-radius: 30px;
+    border: 1px solid #b2aaaa;
+    margin-right: 35px;
+   
+}
+.head-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+
+.search-link  {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #1a1717;
+    cursor: pointer;
+    text-decoration: none;
+}
+.search-icon a {
+    text-decoration: none ;
+}
+
+.Search-btn {
+    width: 80px; 
+    height: 25px;
+    position: absolute;
+    left: 234px;
+    
+}
+
+.cart-icon {
+    display: flex;
+    align-items: center;
+    color: #1a1717;
+    text-decoration: none;
+    cursor: pointer;
+    position: relative;
+    margin-right: 17px;
+}
+/* Center the cart icon vertically */
+.cart-icon svg {
+    vertical-align: middle;
+}
+.cart-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #de9685;
+    color: rgb(24, 23, 23);
+    border-radius: 60%;
+    width: 20px;
+    height: 20px;
+    font-size: 0.8rem;
+    position: absolute;
+    top: -10px; 
+    right: 12px; 
+    z-index: 1; 
+}
+.btn-authontaction{
+    position: absolute;
+    right: -25%;
+}
+.signup ,.signin{
+    text-decoration: none;
+    color: #1a1717;
+    background-color: #e3e1c2;
+     padding:  4px 10px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 5px;
+}
+.signup:hover {
+    background-color: #b1b4a2;
+}
+
+.custom-button {
+    color: #0d0909;
+    padding: 10px 20px;
+  
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+  }
+  
+  .custom-button:hover {
+    background-color: #b1b4a2;
+    color: #0d0909;
+    text-decoration: none;
+    display: flex;
+border-radius: 15px ;
+
+  }
+  #buttons{
+    text-align: center;
+    background-color: #e3e1c2;
+    height: 40px;
+   
+  }
+.Category-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 550;
+    text-transform:capitalize;
+}
+
+/*-----------Slider Style--------------*/
+.slider-container {
+    width: 90%;
+    height: 300px;
+    
+    /* Limit the maximum width of the slider */
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    width: 400%;
+    /* Four images, each taking 25% of the width */
+    transition: transform 0.5s ease-in-out;
+    height: 300px;
+}
+
+.slider img {
+    width: 25%;
+    object-fit: cover;
+   
+}
+
+.Slider-div{
+    position:relateve;
+    display: flex;
+    flex-wrap: nowrap;
+    margin: auto;
+    width: 95%;
+    align-items: center;
+}
+.sliderBtn1,.sliderBtn2{
+    
+    border: 2px solid none;
+    width:auto;
+    height:auto;
+    font-size:xx-large;
+    cursor: pointer;
+    z-index:1;
+    border-radius: 10px;
+    padding: 7px 15px;
+    color:#67686b;
+    position:absolute;
+}
+.sliderBtn1:hover,
+.sliderBtn2:hover {
+    background: #c3c6d1;
+    color: #183153;
+}
+.sliderBtn1 {
+    left:7.5%;
+}
+.sliderBtn2 {
+    right:7.5%;
+}
+/*-----------footer Style--------------*/
+.footer {
+    background-color: #f5f4e1;
+    color: rgb(11, 10, 10);
+    text-align: center;
+    padding: 20px;
+    
+    bottom: 0;
+    width: 100%;
+    margin-top: 25px;
+
+}
+
+
+/*-----------floating Button Style--------------*/
+#backToTopBtn {
+    position: fixed;
+    right: 50px;
+    bottom: 0;
+    margin-bottom: 30px;
+    right: 20px;
+    padding: 15px;
+    z-index: 1;
+}
+/*-------------------------------------*/
+
+.Suggested{
+    margin-top: 20px;
+    margin-left: 150px;
+    font-family: Courier, monospace;
+    font-size: 40px;
+    color: #303030;
+  }
+
+ h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: rgb(241 243 255);
+}
+
+
+
+.container-div {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    margin-top: 20px;
+    margin: auto;
+    min-height: calc(100vh - 550px )
+}
+
+.rowDiv {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+/* Style individual items */
+.div-selected {
+    padding: 10px 0;
+    margin: auto; 
+    width: 21%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+.thumbnail-div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #ecf5e38e;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width:100% ;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    align-items: center;
+}
+
+.img-div{
+    width: 100%;
+    height: 45%;
+}
+.product-img {
+    
+    margin: auto;
+    width: 100%; 
+    height: 100%;
+   
+ 
+    
+}
+
+.product-caption {
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+    margin: 5px 0;
+   font-weight: 900;
+}
+h5{
+    margin: 10px 0;
+}
+.label-success {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    margin-top: 5px;
+    
+}
+
+.btn {
+    background-color: #a99d65;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #b1b4a2;
+}
+
+
